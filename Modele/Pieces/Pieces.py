@@ -5,5 +5,5 @@ class Pieces:
         self.color = color
         self.pos = pos
 
-    def __str__(self):
+    def __repr__(self):
         return self.type
